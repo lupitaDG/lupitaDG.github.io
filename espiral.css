@@ -1,0 +1,47 @@
+body{
+    background: rgb(24,0,19);
+    background: linear-gradient(145deg, rgba(24,0,19,1) 9%, rgba(156,2,64,1) 87%);
+  }
+  h1{
+    font-family: 'Merienda', cursive;
+    font-size: 98px;
+    text-shadow: 2px 2px 8px #ffffff;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+h2{
+    color: rgb(226, 99, 126);
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#ojo
+{
+height: 300px;
+width: 300px;
+margin-left: 100px;
+}
+#andro{
+    height: 300px;
+    width: 300px;
+    margin-left: 100px; 
+}
+#remo{
+    height: 300px;
+    width: 300px;
+    margin-left: 100px; 
+}
+.pagina{
+    color: rgb(252, 177, 239);
+  font-family: cursive;
+}
+

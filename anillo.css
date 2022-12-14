@@ -1,0 +1,58 @@
+body{
+    background: rgb(52,2,2);
+background: linear-gradient(145deg, rgba(52,2,2,1) 18%, rgba(209,0,0,1) 96%);
+}
+.regreso{
+    color: rgb(240, 116, 116);
+}
+h1{
+    font-family: 'Merienda', cursive;
+    font-size: 98px;
+    text-shadow: 2px 2px 8px #ffffff;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h2{
+    color: rgb(255, 0, 0);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+h3{
+    color: #ffffff;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+p{
+    color: #ffffff;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+}
+#anillo{
+    margin-left: 300px;
+    width: 300px;
+    right: 300px;
+}
+#anillo2{
+    margin-right: 300px;
+    float: right;
+    width: 300px;
+    right: 300px;
+}
+#polar{
+    float: right;
+    width: 400px;
+    right: 300px; 
+    margin-right: 350px;
+}
+.parrafo{
+    margin-right: 550px;
+}
+#teoria{
+    float: right;
+    width: 300px;
+    right: 300px; 
+    margin-right: 150px;
+} 

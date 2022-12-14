@@ -1,0 +1,219 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.buttons {
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-1 {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+.btn-hover.color-2 {
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+.btn-hover.color-3 {
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+.btn-hover.color-4 {
+    background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+}
+.btn-hover.color-5 {
+    background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+}
+.btn-hover.color-6 {
+    background-image: linear-gradient(to right, #009245, #FCEE21, #00A8C5, #D9E021);
+    box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
+}
+.btn-hover.color-7 {
+    background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+.btn-hover.color-8 {
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+.btn-hover.color-9 {
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+  @import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+  html, body{
+    height: 50%;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    background-image: url("");
+    background-image: url("https://a-static.besthdwallpaper.com/galaxia-oscura-papel-pintado-3554x1999-55224_53.jpg");
+  }
+  
+  .container {
+    
+    display: flex;
+  /*   border:1px solid red; */
+    height: 100%;
+    align-items: center;
+   
+  }
+  
+  svg {
+      display: block;
+      font: 10.5em 'Montserrat';
+      width: 960px;
+      height: 300px;
+      margin: 0 auto;
+  }
+  
+  .text-copy {
+      fill: none;
+      stroke: white;
+      stroke-dasharray: 6% 29%;
+      stroke-width: 5px;
+      stroke-dashoffset: 0%;
+      animation: stroke-offset 5.5s infinite linear;
+  }
+  
+.text-copy:nth-child(1){
+    stroke: #cf3ea6;
+    animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+    stroke: #63c3f0;
+    animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+    stroke: #73eba9;
+    animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+    stroke: #ec83cb;
+    animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+    stroke: #a84bbb;
+    animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+    100% {stroke-dashoffset: -35%;}
+}
+
+.color{    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+h2{
+    color:rgb(71, 206, 206);
+    margin-left: 50px;
+    margin-right: 50px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    
+}
+p{
+    color:azure;
+    margin-left: 50px;
+    margin-right: 450px;
+    text-align: justify;
+}
+aside{
+    float: right;    width: 30%;
+    margin-right: 20px;
+    background-color: rgba(154, 167, 241, 0.199);
+    min-height: 600px;
+}
+#formulario{
+    margin-left: 100%;
+    margin-right: 100%;
+}
+a:link{
+    color: rgb(241, 80, 115);
+}
+
+a:visited{
+    color:rgb(37, 218, 97);
+}
+
+a:hover{
+    border-bottom: 5px solid;
+    background: rgb(71, 70, 104);
+}
+
+a:active{
+    background: rgb(60, 180, 189);
+    color:rgb(138, 62, 173);
+}
+
+textarea{
+    width: 400px;
+    height: 160px;
+    background-color: rgb(110, 107, 105);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    border-radius: 15px;
+    border-color: blueviolet;
+    
+}
+
+button{
+    background-color: rgb(153, 0, 255);
+    color:rgb(60, 255, 0);
+    border-radius: 50%;
+}
+h3{
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
